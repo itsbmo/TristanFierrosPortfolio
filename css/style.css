@@ -21,7 +21,9 @@ a {
 header{
     background-image: url(/img/textback.jpg);
     background-size: cover;
-  height: auto; !important;
+    height: auto; !important;
+    
+    
   
 }
 .about {
@@ -29,7 +31,8 @@ header{
 }
 .navtext{
     text-decoration: none;
-    color: black;
+    color:  white;
+    font-weight: bold;
 }
 .card-img-top{
     width: 100%;
@@ -39,6 +42,33 @@ header{
 .yes{
     box-shadow: 3px 3px 3px 3px;
 }
-.project{
-    text-size: auto;
+.navbar{
+    position:   sticky;
+    background-color: #252323;
+    box-shadow: 3px 3px 3px 3px;
+    border: solid 1px  #FfF1Ed ;
+}
+.navbar-toggler{
+    border: 2px;
+    border-color: aqua;
+}
+.btn-info{
+    font-weight: bold;
+}
+section{
+    background-color: #FfF1Ed;
+}
+h2{
+    text-align: center;
+}
+.email{
+    font-size: x-large;
+    font-weight: bold;
+}
+.fa-brands{
+    text-decoration: none;
+    color: white;
+}
+.fa-brands:hover{
+    color: gray;
 }
