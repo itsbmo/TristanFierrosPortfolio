@@ -19,7 +19,7 @@ a {
 } */
 
 header{
-    background-image: url(/img/textback.jpg);
+    background-image: url(./img/textback.jpg);
     background-size: cover;
     height: auto; !important;
     
@@ -43,6 +43,7 @@ header{
     box-shadow: 3px 3px 3px 3px;
 }
 .navbar{
+    font-family: 'Lora', serif;
     position:   sticky;
     background-color: #252323;
     box-shadow: 3px 3px 3px 3px;
@@ -68,7 +69,40 @@ h2{
 .fa-brands{
     text-decoration: none;
     color: white;
+    font-family: font-family: 'Lora', serif;
+    
 }
 .fa-brands:hover{
     color: gray;
+}
+.jumbo{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+.navbar-brand{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.intro{
+    font-size: medium;
+}
+header{
+    background-image: url(../img/jumbotexture2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hi{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px #000000;
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.row{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-item{
+    justify-content: flex-start;
+    align-items: flex-start;
 }
